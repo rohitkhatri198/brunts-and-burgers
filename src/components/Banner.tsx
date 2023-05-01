@@ -9,7 +9,7 @@ function Banner() {
   return (
     <div className="py-2rem ">
       <div className="w-\full my-0 py-8 px-[11vw]">
-        <h1 className="text-[7vw]  leading-[0.9em] font-Bowlby text-center">{`NEW YORK’S FAVORITE ORGANIC HAMBURGER JOINT`}</h1>
+        <h1 className="text-[7vw]  mt-[25vh]  leading-[0.9em] font-Bowlby text-center">{`NEW YORK’S FAVORITE ORGANIC HAMBURGER JOINT`}</h1>
       </div>
       <div className=" w-full relative top-[-2.5rem] flex items-center overflow-hidden bg-[#1d1c1c]">
         <motion.div variants={slide} initial="initial" animate="animate" className="relative left-[10rem]">

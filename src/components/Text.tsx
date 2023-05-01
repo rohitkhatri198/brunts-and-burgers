@@ -8,7 +8,7 @@ function Text() {
       <div 
         
       className="flex justify-center animation items-center">
-        <h1 className="font-Bowlby font-normal text-[#d1ef53] uppercase text-center text-[5.1vw] inline">
+        <h1 className="font-Bowlby font-normal text-[#d1ef53] uppercase text-center text-[5.1vw] block">
           the best burger i’ve ever had
         </h1>
       </div>

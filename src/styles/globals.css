@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap");
+
+@font-face {
+  font-family: "sofia";
+  src: url("/fonts/sofiapro-light.woff2") format("woff2");
+  font-weight: 800;
+  font-display: swap ;
+  
+}
 
 @tailwind base;
 @tailwind components;
@@ -18,6 +26,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -28,11 +40,39 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.box-shadow{
+.box-shadow {
   box-shadow: 8px 8px 0px #000000;
 }
-.animation{
+.animation {
   animation: services 30s linear infinite;
+}
+
+.image:before {
+  content: url("/images/vector2.png");
+  left: -91vw;
+  top: -68vh;
+  position: absolute;
+  scale: 0.25;
+  transform: rotate(10deg);
+}
+/* .image:after {
+  content: url("/images/vector1.png");
+  right: -91vw;
+  bottom: -68vh;
+  position: absolute;
+  scale: 0.25;
+  transform: rotate(10deg);
+  overflow: hidden;
+} */  
+
+.decoration{
+  text-decoration: none;
+}
+
+
+input:focus-visible{
+  border: none;
+  display: block;
 }
 
 @keyframes services {

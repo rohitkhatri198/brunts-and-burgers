@@ -13,7 +13,8 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       fontFamily: {
-        Bowlby: [ 'Bowlby One', 'cursive']
+        Bowlby: [ 'Bowlby One', 'cursive'],
+        sofia:  ['sans-serif']
       }
     },
   },
