@@ -75,6 +75,10 @@ input:focus-visible{
   display: block;
 }
 
+button:active {
+  transform: scale(0.96);
+  transition: transform 0.2s ease;
+}
 @keyframes services {
   0% {
     transform: translateZ(0);
