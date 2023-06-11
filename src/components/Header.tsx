@@ -23,8 +23,8 @@ function Header() {
       <div className=" flex   justify-between items-center font-Bowlby py-10 px-10">
         <div className="text-[1.6vw] font-normal ">Burger Heaven</div>
         <div className="flex text-[1.6vw] items-center space-x-10">
-          <div>About</div>
-          <div>Menu</div>
+          <div className="cursor-pointer">About</div>
+          <div className="cursor-pointer">Menu</div>
           <button className="text-black bg-[#B3A0CD] p-4"> Order Online</button>
         </div>
       </div>
